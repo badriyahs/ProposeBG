@@ -560,18 +560,11 @@ html {
 }
 
 .video-container video {
-    width: 105%;
-    /* Slightly increase the width */
+    width: 100%;
     height: auto;
-    /* Maintain the aspect ratio */
     max-height: 100vh;
-    /* Ensure the video fits within the viewport height */
-    object-fit: contain;
-    /* Ensure the entire video is visible */
-    margin: 0 auto;
-    /* Center the video */
-    display: block;
-    /* Ensure it's treated as a block element */
+    object-fit: cover;
+    aspect-ratio: 32/10;
 }
 
 #myContainer.hole {
