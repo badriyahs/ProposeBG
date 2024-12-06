@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 Colloquium final website
 The website with videos embedded in
 this one gives a background to my thesis
